@@ -219,6 +219,7 @@ SOURCES += src/main.cpp \
     src/map/coordinatesystem.cpp
 RESOURCES += gpxsee.qrc
 TRANSLATIONS = lang/gpxsee_cs.ts \
+    lang/gpxsee_af.ts \
     lang/gpxsee_sv.ts \
     lang/gpxsee_de.ts \
     lang/gpxsee_ru.ts \
@@ -229,6 +230,7 @@ macx {
     QMAKE_INFO_PLIST = pkg/Info.plist
     LOCALE.path = Contents/Resources/translations
     LOCALE.files = lang/gpxsee_cs.qm \
+        lang/gpxsee_af.qm \
         lang/gpxsee_de.qm \
         lang/gpxsee_fi.qm \
         lang/gpxsee_fr.qm \
